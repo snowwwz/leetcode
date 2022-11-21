@@ -24,14 +24,14 @@ https://leetcode.com/problems/first-bad-version/
 
 package main
 
-/** 
+/**
  * Forward declaration of isBadVersion API.（test case version）
  * @param   version   your guess about first bad version
- * @return 	 	      true if current version is bad 
+ * @return 	 	      true if current version is bad
  *			          false if current version is good
  * func isBadVersion(version int) bool;
  */
-func isBadVersion(n int , target int) bool {
+func isBadVersion(n int, target int) bool {
 	if n == 5 && target == 4 {
 		return true
 	}

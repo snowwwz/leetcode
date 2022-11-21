@@ -8,15 +8,15 @@ import (
 
 func TestFirstBadVersion(t *testing.T) {
 	cases := []struct {
-		arg     int
+		arg      int
 		expected int
 	}{
 		{
-			arg:     5,
+			arg:      5,
 			expected: 4,
 		},
 		{
-			arg:     1,
+			arg:      1,
 			expected: 1,
 		},
 	}
